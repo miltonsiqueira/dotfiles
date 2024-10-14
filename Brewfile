@@ -1,15 +1,18 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
+brew tap hashicorp/tap
 brew "asdf"
 brew "bash-completion"
 brew "brew-cask-completion"
+brew "emacs"
 brew "cask"
 brew "chezmoi"
 brew "libpng"
 brew "colima"
 brew "elixir"
 brew "exercism"
+brew "fzf"
 brew "ghostscript"
 brew "gifsicle"
 brew "git"
@@ -21,6 +24,7 @@ brew "nghttp2"
 brew "python@3.9", link: false
 brew "ripgrep"
 brew "ruby", link: true
+brew "brew hashicorp/tap/terraform"
 brew "tmux"
 brew "tree"
 brew "x264"
@@ -34,10 +38,12 @@ cask "ankiapp"
 cask "appcleaner"
 cask "authy"
 cask "battle-net"
+cask "betterzip"
 cask "bitwarden"
 cask "cheatsheet"
 cask "docker"
 cask "dropbox"
+cask "epic-games"
 cask "evernote"
 cask "font-jetbrains-mono-nerd-font"
 cask "gimp"
@@ -60,8 +66,10 @@ cask "webtorrent"
 cask "zoom"
 mas "DigiDoc4 Client", id: 1370791134
 mas "feedly", id: 865500966
+mas "Focus To-Do", id: 1258530160
 mas "Keynote", id: 409183694
+mas "Microsoft Remote Desktop", id: 715768417
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "TeRa", id: 1243347809
-mas "Xcode", id: 497799835
+mas "Web eID", id: 1576665083
